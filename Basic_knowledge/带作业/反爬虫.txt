@@ -1,0 +1,18 @@
+爬虫第一步：查看robots.txt
+    它规定哪些能爬,哪些不能爬
+
+1.设置随机的ua和ip
+
+2.控制访问速度,防止网站被搞崩;或者在凌晨的时候增大访问量
+
+3.在headers中加入cookie,但这是双刃剑,有些网站会保存你的cookie,如果你的cookie有异常行为就会封禁
+    所以要慎重使用,必须用时可以用插件EditThisCookie
+
+4.referer,有些网站没有它就会拒绝响应
+
+5.限制ip下载量,典型的就是e站,同一ip下载过多就会返回509
+
+6.  （1）客户端发送cookie时：
+    Cookie：key1=value1;key2=value2;key3=value3
+    （2）服务器端保存cookie时：
+    Set-cookie：key1=value1；path=/；domain=xx

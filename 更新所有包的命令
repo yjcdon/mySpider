@@ -1,0 +1,2 @@
+进入包安装的文件夹后在终端输入
+pip-review --local --interactive

@@ -1,0 +1,9 @@
+模拟用户操作浏览器
+
+比如京东秒杀,你直接去打印,搜索seckill,搜不到
+但你在浏览器在检查中搜索,有,因为网站检测你是用户;而用爬虫程序模拟的浏览器会被拒绝
+所以用selenium,模拟你是用户,就能搜索到了
+
+
+
+使用selenium,你要把对于浏览器的driver复制到python的下载目录中,这台电脑的下载目录是:C:\Users\lyj\AppData\Local\Programs\Python\Python310

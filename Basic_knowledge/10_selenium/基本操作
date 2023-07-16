@@ -1,0 +1,65 @@
+ 1 #导入浏览器模块
+ 2 from selenium import webdriver
+ 3 #打开浏览器
+ 4 drive = webdriver.chorme()
+ 5 #访问网站
+ 6 driver.get(url)
+ 7 #窗口最大化
+ 8 driver.maximize_window()
+ 9 #窗口最小化
+10 driver.minimize_window()
+11 #设置浏览器尺寸
+12 driver.set_window_size(1480, 1800)
+13 #关闭当前窗口
+14 driver.close()
+15 #关闭所有窗口
+16 driver.quiet
+17 #前进
+18 driver.forword()
+19 #后退
+20 driver.back()
+21 #刷新
+22 driver.refresh()
+23 #h获取当前路径
+24 driver.current_url
+25 #获取当前标题
+26 driver.title
+27 # elements代表定位一组元素而element单个
+28 #根据ID定位单独元素或元素集合
+29 driver.find_element_by_id()
+30 driver.find_elements_by_id()
+31 #根据tag_name定位单独元素或元素集合
+32 driver.find_element_by_tag_name()
+33 driver.find_elements_by_tag_name()
+34 #根据className定位单独元素或者元素集合
+35 driver.find_element_by_class_name()
+36 driver.find_elements_by_class_name()
+37 #根据链接文本定位
+38 driver.find_element_by_link_text()
+39 driver.find_elements_by_link_text()
+40 #根据部分链接文本定位
+41 driver.find_element_by_partial_link_text()
+42 driver.find_elements_by_partial_link_text()
+43 #根据xpath定位
+44 driver.find_element_by_xpath()
+45 driver.find_elements_by_xpath()
+46 #根据name定位
+47 driver.find_element_by_name()
+48 driver.find_elements_by_name()
+49 #根据css定位
+50 driver.find_element_by_css_selector()
+51 driver.find_elements_by_css_selector()
+52 #点击操作
+53 el.click
+54 #像输入标签输入文本
+55 el.send_keys(data)
+56 #清空输入框
+57 el.clear()
+58 #获取文本内容
+59 el.text
+60 #获取元素属性
+61 el.get_attribute(value)
+62 #获取元素尺寸
+63 el.size
+64 #检查元素是否可见​
+65 el.is_displayed()​
